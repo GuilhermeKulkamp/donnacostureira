@@ -1,0 +1,12 @@
+/* styles.css */
+/* Comentários explicativos:
+   - O Tailwind já fornece utilitários. Use este arquivo para pequenas correções
+     ou para estudar onde aplicar CSS tradicional quando necessário.
+*/
+
+/* Exemplo: ajuste fino do tamanho do container para telas muito grandes */
+@media (min-width: 1400px) {
+  .max-w-5xl {
+    max-width: 1280px;
+  }
+}
